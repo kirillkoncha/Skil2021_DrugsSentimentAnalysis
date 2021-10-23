@@ -34,6 +34,8 @@ def preprocessing(texts):
     return preprocessed_texts
 
 
+
+
 def get_morph_tags(texts):
     pos_tags = []
     for text in texts:
