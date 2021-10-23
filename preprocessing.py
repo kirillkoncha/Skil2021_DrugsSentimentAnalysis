@@ -18,7 +18,7 @@ morph = pymorphy2.MorphAnalyzer()
 tokenizer = RegexpTokenizer(r'\w+')
 
 
-df = pd.read_csv("data_unprocessed.csv", delimiter=';')
+df = pd.read_csv("data_unprocessed.csv")
 df['sentiment'] = pd.to_numeric(df['sentiment'])
 
 
