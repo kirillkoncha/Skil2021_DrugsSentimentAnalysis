@@ -51,3 +51,4 @@ if __name__ == '__main__':
     df['preprocessed'] = preprocessing(df['content'])
     df['pos_tags'] = get_morph_tags(df['content'])
     df.to_csv('data.csv')
+
